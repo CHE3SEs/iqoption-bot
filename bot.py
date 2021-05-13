@@ -3,7 +3,7 @@ import logging
 from iqoptionapi.stable_api import IQ_Option
 
 #conectar
-Iq=IQ_Option("julio8martins@gmail.com","julio123!@#.")
+Iq=IQ_Option("email:","senha")
 check_connect=Iq.connect()
 if check_connect:
     print("conectado")
